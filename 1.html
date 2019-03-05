@@ -1,8 +1,10 @@
 <html>
   <script>
   document.write("haha2");
-  //document.write(document.JsInterface.getParams());
-  alert("3");
+  document.write(document.JsInteraction.getParams());
+  document.write(window['JsInteraction'].getParams());
+  document.write(document.JsInteraction.getCsToken());
+  document.write(window['JsInteraction'].getCsToken());
+  document.write("heihei");
   </script>
-  <img src="2" onerror="alert(window['JsInterface'].getParams())">
 </html>
